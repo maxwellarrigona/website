@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Data has never looked this good.
 
 You can use the [editor on GitHub](https://github.com/maxwellarrigona/maxwell-arrigona-github-page/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
