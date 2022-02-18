@@ -209,7 +209,6 @@
 		/* Set your background with this */
 		background: _misc(bg);
 
-		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -229,7 +228,7 @@
 	#overlay {
 		@include vendor('animation', 'overlay #{_duration(overlay)} #{$delay-overlay} forwards');
 		background-attachment: fixed, fixed;
-		background-image: url('images/overlay-pattern.png'), url('images/overlay.svg');
+		background-image: url('https://observablehq.com/@maxwellarrigona/voronoi-stippling'), url('https://observablehq.com/@maxwellarrigona/voronoi-stippling');
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
