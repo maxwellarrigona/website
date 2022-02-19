@@ -226,11 +226,11 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("https://i.pinimg.com/originals/1b/74/ed/1b74ed53670b66f50f4a0a2d4c59f7f5.gif") bottom center;
-		background-repeat: repeat;
+		background: #348cb2 url("https://observablehq.com/@makio135/generating-svgs/8#cell-2") center;
+		background-repeat: no-repeat;
 		height: 100%;
 		left: 0;
-		opacity: 5;
+		opacity: 1;
 		position: fixed;
 		top: 0;
 	}
