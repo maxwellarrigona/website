@@ -121,7 +121,7 @@ button:focus {
 }
 
 .gray-bg {
-  background: #f9f9ff;
+  background: #ebeef1;
 }
 
 /* Main Title Area css
@@ -818,7 +818,7 @@ button:focus {
 ============================================================================================ */
 .blog_btn {
   border: 1px solid #eeeeee;
-  background: #f9f9ff;
+  background: #ebeef1;
   padding: 0px 32px;
   font-size: 13px;
   font-weight: 500;
@@ -2421,23 +2421,23 @@ h6 {
 
 .genric-btn.default {
   color: #222222;
-  background: #f9f9ff;
+  background: #ebeef1;
   border: 1px solid transparent;
 }
 
 .genric-btn.default:hover {
-  border: 1px solid #f9f9ff;
+  border: 1px solid #ebeef1;
   background: #fff;
 }
 
 .genric-btn.default-border {
-  border: 1px solid #f9f9ff;
+  border: 1px solid #ebeef1;
   background: #fff;
 }
 
 .genric-btn.default-border:hover {
   color: #222222;
-  background: #f9f9ff;
+  background: #ebeef1;
   border: 1px solid transparent;
 }
 
@@ -2563,33 +2563,33 @@ h6 {
 
 .genric-btn.link {
   color: #222222;
-  background: #f9f9ff;
+  background: #ebeef1;
   text-decoration: underline;
   border: 1px solid transparent;
 }
 
 .genric-btn.link:hover {
   color: #222222;
-  border: 1px solid #f9f9ff;
+  border: 1px solid #ebeef1;
   background: #fff;
 }
 
 .genric-btn.link-border {
   color: #222222;
-  border: 1px solid #f9f9ff;
+  border: 1px solid #ebeef1;
   background: #fff;
   text-decoration: underline;
 }
 
 .genric-btn.link-border:hover {
   color: #222222;
-  background: #f9f9ff;
+  background: #ebeef1;
   border: 1px solid transparent;
 }
 
 .genric-btn.disable {
   color: #222222, 0.3;
-  background: #f9f9ff;
+  background: #ebeef1;
   border: 1px solid transparent;
   cursor: not-allowed;
 }
@@ -2792,7 +2792,7 @@ h6 {
   line-height: 40px;
   border: none;
   outline: none;
-  background: #f9f9ff;
+  background: #ebeef1;
   padding: 0 20px;
 }
 
@@ -2826,7 +2826,7 @@ h6 {
   line-height: 40px;
   border: none;
   outline: none;
-  background: #f9f9ff;
+  background: #ebeef1;
   padding: 0 20px;
   height: 100px;
   resize: none;
@@ -2842,7 +2842,7 @@ h6 {
   line-height: 40px;
   border: 1px solid transparent;
   outline: none;
-  background: #f9f9ff;
+  background: #ebeef1;
   padding: 0 20px;
 }
 
@@ -2857,7 +2857,7 @@ h6 {
   line-height: 40px;
   border: 1px solid transparent;
   outline: none;
-  background: #f9f9ff;
+  background: #ebeef1;
   padding: 0 20px;
 }
 
@@ -2872,7 +2872,7 @@ h6 {
   line-height: 40px;
   border: 1px solid transparent;
   outline: none;
-  background: #f9f9ff;
+  background: #ebeef1;
   padding: 0 20px;
 }
 
@@ -3399,7 +3399,7 @@ h6 {
   border: none;
   border-radius: 0px;
   height: 40px;
-  background: #f9f9ff !important;
+  background: #ebeef1 !important;
   padding-left: 45px;
   padding-right: 40px;
   width: 100%;
