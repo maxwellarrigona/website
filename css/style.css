@@ -223,7 +223,7 @@ button:focus {
 
 .primary-btn:hover {
   background: #5d97cb;
-  color: #fff;
+  color: #5d97cb;
   border: 2px solid transparent;
 }
 
@@ -264,7 +264,7 @@ button:focus {
 .header_area .navbar .nav .nav-item .nav-link {
   font: 500 12px/100px "Roboto", sans-serif;
   text-transform: capitalize;
-  color: #000;
+  color: #ffffff;
   padding: 0px;
   display: inline-block;
   font-size: 16px;
@@ -3883,7 +3883,7 @@ h6 {
 }
 
 .social_widget .list li a {
-  color: #c48e0b;
+  color: #5d97cb;
   font-size: 36px;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -3896,7 +3896,7 @@ h6 {
 }
 
 .social_widget .list li:hover a {
-  color: #5d97cb;
+  color: #d7dee4;
 }
 
 .social_widget .list li .icon-substack {
