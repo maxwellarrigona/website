@@ -3899,19 +3899,6 @@ h6 {
   color: #d7dee4;
 }
 
-.social_widget .list li .icon-substack {
-  color: #5d97cb;
-  font-size: 36px;
-  /* -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;*/
-}
-
-.social_widget .list li .icon-substack:hover {
-  color: #d7dee4;
-}
-
 .copyright {
   margin-top: 40px;
 }
