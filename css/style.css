@@ -264,7 +264,7 @@ button:focus {
 .header_area .navbar .nav .nav-item .nav-link {
   font: 500 12px/100px "Roboto", sans-serif;
   text-transform: capitalize;
-  color: #ffffff;
+  color: #000;
   padding: 0px;
   display: inline-block;
   font-size: 16px;
@@ -3900,8 +3900,7 @@ h6 {
 }
 
 .social_widget .list li .icon-substack {
-  filter: invert(71%) sepia(48%) saturate(3152%) hue-rotate(5deg)
-    brightness(84%) contrast(91%);
+  color: #5d97cb;
   font-size: 36px;
   /* -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -3910,8 +3909,7 @@ h6 {
 }
 
 .social_widget .list li .icon-substack:hover {
-  filter: invert(61%) sepia(43%) saturate(7483%) hue-rotate(332deg)
-    brightness(92%) contrast(93%);
+  color: #d7dee4;
 }
 
 .copyright {
