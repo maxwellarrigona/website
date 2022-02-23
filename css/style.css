@@ -336,7 +336,7 @@ button:focus {
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
   line-height: 45px;
-  color: #222222;
+  color: #ffffff;
   padding: 0px 30px;
   transition: all 150ms linear;
   display: block;
@@ -349,7 +349,7 @@ button:focus {
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
   background: #5d97cb;
-  color: #fff;
+  color: #00000;
 }
 
 @media (min-width: 992px) {
@@ -406,7 +406,7 @@ button:focus {
 }
 
 .header_area.white_menu .navbar .nav .nav-item .nav-link {
-  color: #fff;
+  color: #000000;
 }
 
 .header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img {
@@ -429,7 +429,7 @@ button:focus {
   .nav-item
   .nav-link {
   line-height: 70px;
-  color: #222222;
+  color: #fffffff;
 }
 
 /*---------------------------------------------------- */
