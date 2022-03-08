@@ -3900,8 +3900,7 @@ h6 {
 }
 
 .social_widget .list li .icon-tableau {
-  filter: invert(71%) sepia(48%) saturate(3152%) hue-rotate(5deg)
-    brightness(84%) contrast(91%);
+  filter: invert(67%) sepia(11%) saturate(1919%) hue-rotate(170deg) brightness(83%) contrast(90%);
   font-size: 36px;
   /* -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -3910,14 +3909,12 @@ h6 {
 }
 
 .social_widget .list li .icon-tableau:hover {
-  filter: invert(61%) sepia(43%) saturate(7483%) hue-rotate(332deg)
-    brightness(92%) contrast(93%);
+  filter: invert(85%) sepia(3%) saturate(423%) hue-rotate(166deg) brightness(105%) contrast(91%);
 }
 
 
 .social_widget .list li .icon-observable {
-  filter: invert(71%) sepia(48%) saturate(3152%) hue-rotate(5deg)
-    brightness(84%) contrast(91%);
+  filter: invert(67%) sepia(11%) saturate(1919%) hue-rotate(170deg) brightness(83%) contrast(90%);
   font-size: 36px;
   /* -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -3926,8 +3923,7 @@ h6 {
 }
 
 .social_widget .list li .icon-observable:hover {
-  filter: invert(61%) sepia(43%) saturate(7483%) hue-rotate(332deg)
-    brightness(92%) contrast(93%);
+  filter: invert(85%) sepia(3%) saturate(423%) hue-rotate(166deg) brightness(105%) contrast(91%);
 
 }
 
