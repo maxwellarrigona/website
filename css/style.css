@@ -3899,6 +3899,38 @@ h6 {
   color: #d7dee4;
 }
 
+.social_widget .list li .icon-tableau {
+  filter: invert(71%) sepia(48%) saturate(3152%) hue-rotate(5deg)
+    brightness(84%) contrast(91%);
+  font-size: 36px;
+  /* -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;*/
+}
+
+.social_widget .list li .icon-tableau:hover {
+  filter: invert(61%) sepia(43%) saturate(7483%) hue-rotate(332deg)
+    brightness(92%) contrast(93%);
+}
+
+
+.social_widget .list li .icon-observable {
+  filter: invert(71%) sepia(48%) saturate(3152%) hue-rotate(5deg)
+    brightness(84%) contrast(91%);
+  font-size: 36px;
+  /* -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;*/
+}
+
+.social_widget .list li .icon-observable:hover {
+  filter: invert(61%) sepia(43%) saturate(7483%) hue-rotate(332deg)
+    brightness(92%) contrast(93%);
+
+}
+
 .copyright {
   margin-top: 40px;
 }
