@@ -936,32 +936,27 @@
             <div class="form-elements">
             <fieldset class="pure-group">
             <label for="name"><em>Your</em> Name: </label>
-            <input id="name" name="name" placeholder="e.g. Tim Cook" />
+            <input id="name" name="name" color="color:EBBEF1" placeholder="e.g. Tim Cook" />
             </fieldset>
 
             <fieldset class="pure-group">
             <label for="message">Message: </label>
-            <textarea id="message" name="message" rows="10"
+            <textarea id="message" name="message" rows="10" color="color:EBBEF1"
             placeholder="e.g. We want you to work for Apple and here's why..."></textarea>
             </fieldset>
 
             <fieldset class="pure-group">
             <label for="email"><em>Your</em> Email Address:</label>
-            <input id="email" name="email" type="email" value=""
+            <input id="email" name="email" type="email" value="" color="color:EBBEF1"
             required placeholder="e.g. tim-cook@apple.com"/>
             </fieldset>
 
-            <label for="membership">Choose a reason for reaching out:</label>
-            <select name="membership" id="membership">
-            <option value="offer">Offer</option>
+            <label for="reason">Choose a reason for reaching out:</label>
+            <select name="reason" id="reason">
             <option value="opportunity">Opportunity</option>
             <option value="intro" selected>Introduction</option>
+            <option value="offer">Offer</option>
             </select>
-
-            <fieldset class="pure-group honeypot-field">
-            <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
-            <input id="honeypot" type="text" name="honeypot" value="" />
-            </fieldset>
 
             <button class="button-success pure-button button-xlarge">
             <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
