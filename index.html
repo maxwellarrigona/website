@@ -917,15 +917,12 @@
     <section class="about-area section_gap gray-bg" id="abt-me">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-lg-4 about-left">
-            <img class="img-fluid" src="img/INSERT-PIC-HERE.jpg" alt="" />
-          </div>
           <div class="col-lg-7 col-md-12 about-right">
             <div class="main-title text-left">
-              <h1>Contacting Me</h1>
+              <h1>Reach Out</h1>
               <div>
               </div>
-              <h5>If you have an offer, opportunity, or introduction that might make my life more interesting.</h5>
+              <h4><strong>If you have an offer, opportunity, or introduction that might make my life more interesting.</strong></h4>
             </div>
             <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -939,25 +936,27 @@
             <div class="form-elements">
             <fieldset class="pure-group">
             <label for="name">Name: </label>
-            <input id="name" name="name" placeholder="What your Mom calls you" />
+            <input id="name" name="name" placeholder="e.g. Tim Cook" />
             </fieldset>
 
             <fieldset class="pure-group">
             <label for="message">Message: </label>
             <textarea id="message" name="message" rows="10"
-            placeholder="Tell us what's on your mind..."></textarea>
+            placeholder="e.g. We want you to work for Apple and here's why..."></textarea>
             </fieldset>
 
             <fieldset class="pure-group">
             <label for="email"><em>Your</em> Email Address:</label>
             <input id="email" name="email" type="email" value=""
-            required placeholder="your.name@email.com"/>
+            required placeholder="e.g. tim-cook@apple.com"/>
             </fieldset>
 
-            <fieldset class="pure-group">
-            <label for="color">Favourite Color: </label>
-            <input id="color" name="color" placeholder="green" />
-            </fieldset>
+            <label for="membership">Choose a reason for reaching out:</label>
+            <select name="membership" id="membership">
+            <option value="offer">Offer</option>
+            <option value="opportunity">Opportunity</option>
+            <option value="intro" selected>Introduction</option>
+            </select>
 
             <fieldset class="pure-group honeypot-field">
             <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
