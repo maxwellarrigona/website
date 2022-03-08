@@ -3462,10 +3462,6 @@ h6 {
   margin-bottom: 30px;
 }
 
-.about-area .main-title h1:before {
-  left: 10%;
-}
-
 @media (max-width: 1200px) {
   .about-area .main-title h1:before {
     left: 12%;
