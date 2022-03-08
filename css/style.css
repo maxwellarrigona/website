@@ -3485,7 +3485,7 @@ h6 {
 }
 
 .about-area .main-title h1:after {
-  left: 5px;
+  ;
 }
 
 @media (max-width: 1024px) {
