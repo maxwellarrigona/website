@@ -31,7 +31,7 @@ body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  color: #777777;
+  color: #22222222;
 }
 
 body.elements {
@@ -194,7 +194,7 @@ button:focus {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   line-height: 26px;
-  color: #777777;
+  color: #222222;
   margin-bottom: 0px;
   margin: auto;
 }
@@ -935,7 +935,7 @@ button:focus {
 .causes_item .causes_text p {
   font-size: 14px;
   line-height: 24px;
-  color: #777777;
+  color: #222222;
   font-weight: 300;
   margin-bottom: 0px;
 }
@@ -3958,7 +3958,7 @@ button {
 }
 
 .copyright p {
-  color: #000;
+  color: #EBEEF1;
 }
 
 .copyright p a {
