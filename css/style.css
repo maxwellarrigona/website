@@ -262,7 +262,7 @@ button:focus {
 
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-  color: ##000000;
+  color: #FFFFFF;
 }
 
 .header_area .navbar .nav .nav-item.submenu {
@@ -392,7 +392,7 @@ button:focus {
 }
 
 .header_area.white_menu .navbar .nav .nav-item .nav-link {
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img {
@@ -415,7 +415,7 @@ button:focus {
   .nav-item
   .nav-link {
   line-height: 70px;
-  color: #fffffff;
+  color: #ffffff;
 }
 
 /*---------------------------------------------------- */
