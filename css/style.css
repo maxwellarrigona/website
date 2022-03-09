@@ -263,6 +263,7 @@ button:focus {
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
   color: #FFFFFF;
+-webkit-text-fill: #FFFFFF;
 }
 
 .header_area .navbar .nav .nav-item.submenu {
@@ -335,7 +336,7 @@ button:focus {
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
   background: #5d97cb;
-  color: #00000;
+  color: #000000;
 }
 
 @media (min-width: 992px) {
