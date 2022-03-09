@@ -263,7 +263,7 @@ button:focus {
 
 .header_area .navbar .nav .nav-item .nav-link {
   font: 500 12px/100px "Roboto", sans-serif;
-  text-shadow: 3px 0 0 #000, 0 3px 0 #000, -3px 0 0 #000, 0 -3px 0 #000;
+  -webkit-text-stroke: 3px #000000;
   text-transform: capitalize;
   color: #FFFFFF;
   padding: 0px;
