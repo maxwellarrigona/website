@@ -3921,6 +3921,14 @@ textarea {
 .is-center {
   text-align: center;
 }
+
+}
+button {
+  float: right;
+}
+#name, #email {
+  width: 50%;
+}
 .button-success {
   color: white;
   border-radius: 4px;
@@ -3931,14 +3939,6 @@ textarea {
 .button-xlarge {
   font-size: 125%;
   color: #EBEEF1;
-}
-button {
-  float: right;
-}
-#name, #email {
-  width: 50%;
-}
-
 
 .copyright {
   margin-top: 40px;
