@@ -59,6 +59,10 @@ button:focus {
   box-shadow: none;
 }
 
+.honeypot-field {
+  display: none;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
