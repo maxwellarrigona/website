@@ -3,6 +3,9 @@
      document.getElementById("formData").submit();
    }
 
+var el = document.querySelector('.grecaptcha-badge');
+el.style.display = 'none';
+
 
 (function() {
   // get all data in form and return object
