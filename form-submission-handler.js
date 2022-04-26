@@ -1,8 +1,8 @@
-        <script>
+
    function onSubmit(token) {
-     document.getElementById("form").submit();
+     document.getElementById("formData").submit();
    }
-        </script>  
+
 
 (function() {
   // get all data in form and return object
