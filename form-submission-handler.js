@@ -4,9 +4,6 @@
    }
         </script>  
 
-<button class="button-success button-xlarge">
-   <i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Send</button>
-
 (function() {
   // get all data in form and return object
   function getFormData(form) {
