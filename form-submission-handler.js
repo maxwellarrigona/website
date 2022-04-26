@@ -1,6 +1,6 @@
 
    function onSubmit(token) {
-     document.getElementById("formData").submit();
+     document.getElementById("form").submit();
    }
 
 var el = document.querySelector('.grecaptcha-badge');
@@ -11,13 +11,8 @@ el.style.display = 'none';
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
-    var honeypot;
 
     var fields = Object.keys(elements).filter(function(k) {
-      if (elements[k].name === "honeypot") {
-        honeypot = elements[k].value;
-        return false;
-      }
       return true;
     }).map(function(k) {
       if(elements[k].name !== undefined) {
@@ -56,7 +51,7 @@ el.style.display = 'none';
     formData.formGoogleSendEmail
       = form.dataset.email || ""; // no email by default
 
-    return {data: formData, honeypot: honeypot};
+    return {data: formData};
   }
 
   function handleFormSubmit(event) {  // handles form submit without any jquery
@@ -64,11 +59,6 @@ el.style.display = 'none';
     var form = event.target;
     var formData = getFormData(form);
     var data = formData.data;
-
-    // If a honeypot field is filled, assume it was done so by a spam bot.
-    if (formData.honeypot) {
-      return false;
-    }
 
     disableAllButtons(form);
     var url = form.action;
