@@ -1,6 +1,6 @@
         <script>
    function onSubmit(token) {
-     document.getElementById("pure-group").submit();
+     document.getElementById("form").submit();
    }
         </script>  
 
