@@ -1040,8 +1040,11 @@
               <input name="phone" type="text" class="form-control" placeholder="Phone" required>
             </div>
             <div class="col-md-6 form-group">
-              <input name="subject" type="text" class="form-control" placeholder="Subject" required>
-            </div>
+              <select name="reason" type="option" class="form-control" placeholder="Reason" required>
+              <option value="opportunity">Opportunity</option>
+              <option value="intro" selected>Introduction</option>
+              <option value="offer">Offer</option>
+            </select>
             <div class="col-12 form-group">
               <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
             </div>
