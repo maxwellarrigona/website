@@ -959,17 +959,20 @@
               <input name="phone" type="text" class="form-control" placeholder="Phone" required>
             </div>
             <div class="col-md-6 form-group">
-              <option name="reason" type="option" class="form-control" placeholder="Reason" required>
+              <select name="reason" type="option" class="form-control" placeholder="Reason" required>
               <option value="opportunity">Opportunity</option>
               <option value="intro">Introduction</option>
               <option value="offer">Offer</option>
-            </option>
+            </select>
             <br>
             </br>  
             <div class="col-12 form-group">
               <textarea name="message" class="form-control" rows="5" columns="25" placeholder="Message" required></textarea>
             </div>
-   
+            <small>This site is protected by reCAPTCHA and the Google
+              <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+              <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+            </small>
 
             <!-- form message prompt -->
             <div class="row">
@@ -982,10 +985,7 @@
             <div class="col-12">
               <input type="submit" value="Submit Form" class="btn btn-success" name="post">
             </div>
-            <xsmall>This site is protected by reCAPTCHA and the Google
-              <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-              <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-            </xsmall>
+           
 
             <!-- hidden reCaptcha token input -->
             <input type="hidden" id="token" name="token">
