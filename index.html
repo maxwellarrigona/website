@@ -977,14 +977,11 @@
               ></textarea>
             </fieldset>
 
- <button class="button-success button-xlarge">
-   <i class="fa fa-paper-plane"></i>&nbsp;&nbsp;&nbsp;Send</button>
-     </div>
-       </div>
+ <button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>              
           
- <fieldset class="pure-group honeypot-field">
-        <input id="honeypot" type="text" name="honeypot" value="" />
- </fieldset>
 
     <!-- Customise the Thankyou Message People See when they submit the form: -->
     <div class="thankyou_message" style="display:none;">
