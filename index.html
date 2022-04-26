@@ -976,8 +976,19 @@
             <textarea id="message" name="message" rows="5" columns="25"
               ></textarea>
             </fieldset>
-
- <button class="g-recaptcha" 
+ <script>
+   function onSubmit(token) {
+     document.getElementById("form").submit();
+   }
+ </script>          
+               
+<div class="g-recaptcha"
+      data-sitekey="6Lc_lKMfAAAAAEJGmcwM8eHlZ3uyJMaxZZCsS3gb"
+      data-callback="onSubmit"
+      data-size="invisible">
+</div>
+               
+    <button class="g-recaptcha" 
         data-sitekey="6Lc_lKMfAAAAAEJGmcwM8eHlZ3uyJMaxZZCsS3gb" 
         data-callback='onSubmit' 
         data-action='submit'>Submit</button>              
