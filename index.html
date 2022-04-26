@@ -936,11 +936,6 @@
             <!-- Style The Contact Form How Ever You Prefer -->
             <link rel="stylesheet" href="style.css"
   
-        <section class="about-area section_gap gray-bg" id="abt-me">
-         <div class="container">
-          <div class="row justify-content-center">
-           <div class="form-elements">
-            <fieldset class="pure-group"> 
              <div class="col-lg-10 col-md-6 about-right">
               <div class="main-title">
                <div class="card">
@@ -970,10 +965,7 @@
             <div class="col-12 form-group">
               <textarea name="message" class="form-control" rows="5" columns="25" placeholder="Message" required></textarea>
             </div>
-             <small>This site is protected by reCAPTCHA and the Google
-              <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-              <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-             </small>
+   
 
             <!-- form message prompt -->
             <div class="row">
@@ -987,6 +979,10 @@
             <div class="col-12">
               <input type="submit" value="Submit Form" class="btn btn-success" name="post">
             </div>
+            <small>This site is protected by reCAPTCHA and the Google
+              <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+              <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+            </small>
 
             <!-- hidden reCaptcha token input -->
             <input type="hidden" id="token" name="token">
@@ -995,11 +991,9 @@
            </form>
           </div>   
          </div> 
-        </fieldset>
+        </div>
        </div>
-      </div>
-     </div>
-    </section>
+
 <script>
   grecaptcha.ready(function() {
     grecaptcha.execute('6Lc_lKMfAAAAAEJGmcwM8eHlZ3uyJMaxZZCsS3gb', {action: 'homepage'}).then(function(token) {
