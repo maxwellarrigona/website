@@ -19,6 +19,14 @@
     background-color: #FFFFFF;
 }
 
+.col-12 form-group
+{
+	position: absolute;	
+	margin: auto;
+}	
+	
+
+
 
 body {
   line-height: 24px;
