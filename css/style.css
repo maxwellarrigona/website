@@ -13,10 +13,10 @@
 /*----------------------------------------------------*/
 .grecaptcha-badge { opacity:0;}
 
-.message_area {
-display: flex;
-justify-content: center;
-}
+.col-md-11 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
 
 
 body {
