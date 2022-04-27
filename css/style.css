@@ -13,6 +13,12 @@
 /*----------------------------------------------------*/
 .grecaptcha-badge { opacity:0;}
 
+.message_area {
+display: flex;
+justify-content: center;
+}
+
+
 body {
   line-height: 24px;
   font-size: 14px;
