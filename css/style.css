@@ -19,7 +19,7 @@
     background-color: #FFFFFF;
 }
 
-.col-12 form-group
+textarea.form-control
 {
 	position: absolute;	
 	margin: auto;
