@@ -13,8 +13,13 @@ el.style.display = 'none';
   // get all data in form and return object
   function getFormData(form) {
     var elements = form.elements;
+    var honeypot;
 
     var fields = Object.keys(elements).filter(function(k) {
+      if (elements[k].name === "honeypot") {
+        honeypot = elements[k].value;
+        return false;
+      }
       return true;
     }).map(function(k) {
       if(elements[k].name !== undefined) {
@@ -30,7 +35,7 @@ el.style.display = 'none';
     var formData = {};
     fields.forEach(function(name){
       var element = elements[name];
-
+      
       // singular form elements just have one value
       formData[name] = element.value;
 
@@ -53,7 +58,7 @@ el.style.display = 'none';
     formData.formGoogleSendEmail
       = form.dataset.email || ""; // no email by default
 
-    return {data: formData};
+    return {data: formData, honeypot: honeypot};
   }
 
   function handleFormSubmit(event) {  // handles form submit without any jquery
@@ -61,6 +66,11 @@ el.style.display = 'none';
     var form = event.target;
     var formData = getFormData(form);
     var data = formData.data;
+
+    // If a honeypot field is filled, assume it was done so by a spam bot.
+    if (formData.honeypot) {
+      return false;
+    }
 
     disableAllButtons(form);
     var url = form.action;
@@ -87,7 +97,7 @@ el.style.display = 'none';
     }).join('&');
     xhr.send(encoded);
   }
-
+  
   function loaded() {
     // bind to the submit event of our form
     var forms = document.querySelectorAll("form.gform");
