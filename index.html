@@ -964,27 +964,28 @@
               <option value="opportunity">Opportunity</option>
               <option value="intro">Introduction</option>
               <option value="offer">Offer</option>
-            </select>
+              </select>
+            </div>  
             <br>
             </br>
             <div class="col-12">
               <textarea name="message" class="form-control" rows="5" column="25" placeholder="Message" required></textarea>
             </div>
              
-            <!-- form message prompt -->
+            <div class="col-12">
+              <input type="submit" value="Submit Form" class="btn btn-success" name="post">
+            </div>
+                     <p style="color:grey;font-size:9px;">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy </a>and <a href="https://policies.google.com/terms">Terms of Service </a>apply.</p>
+                     
+                      <!-- form message prompt -->
             <div class="row">
              <div class="col-12">
               <div class="thankyou_message" style="display: none">
                   <p>Thanks for reaching out! I'll get back to you if it seems like a good fit.</p>
                 </div>
                </div>
-              </div>
-            <div class="col-12">
-              <input type="submit" value="Submit Form" class="btn btn-success" name="post">
-            </div>
-                     <p style="color:grey;font-size:9px;">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy </a>and <a href="https://policies.google.com/terms">Terms of Service </a>apply.</p>
-                     
-           
+              </div>   
+            
             <!-- hidden reCaptcha token input -->
             <input type="hidden" id="token" name="token">
 
