@@ -18,6 +18,11 @@ display: flex;
 justify-content: center;
 }
 
+.butt-on {
+  float: right;
+  padding: 10px;	
+}
+
 
 body {
   line-height: 24px;
