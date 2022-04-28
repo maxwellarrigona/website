@@ -1,10 +1,10 @@
-<------- #old --------->
 
-
+// supposedly assigns a token when form is submitted
    function onSubmit(token) {
      document.getElementById("form").submit();
    }
 
+// hides the recaptcha badge
 var el = document.querySelector('.grecaptcha-badge');
 el.style.display = 'none';
 
