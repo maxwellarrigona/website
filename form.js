@@ -108,7 +108,7 @@ el.style.display = 'none';
   document.addEventListener("DOMContentLoaded", loaded, false);
 
   function disableAllButtons(form) {
-    var buttons = form.querySelectorAll("button");
+    var buttons = form.querySelectorAll("btn btn-success");
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].disabled = true;
     }
