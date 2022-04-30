@@ -974,18 +974,12 @@
                
             <div class="col-12">
               <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-               <align="left" style="color:grey; font-size:11px;">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy </a>and <a href="https://policies.google.com/terms">Terms of Service </a>apply. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                                               
+              <align="left" style="color:grey; font-size:11px;">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy </a>and <a href="https://policies.google.com/terms">Terms of Service </a>apply. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp                                               
               <input type="submit" value="Submit Form" class="btn btn-success" name="post">
+              <div align="left" class="g-recaptcha brochure__form__captcha" data-sitekey="6LfKDV8fAAAAAFSJ686PrkOyNdThR6Q2d_vsVas_"></div>   
             </div>
           </div>    
-<div class="g-recaptcha brochure__form__captcha" data-sitekey="6Lc_lKMfAAAAAEJGmcwM8eHlZ3uyJMaxZZCsS3gb"></div>
-            
-            <!-- hidden reCaptcha token input -->
-            <input type="hidden" id="token" name="token">
-            <!-- hidden honeypot input -->
-            <fieldset class="pure-group honeypot-field">
-            <input id="honeypot" type="text" name="honeypot" value="" />
-            </fieldset>
+
                                      <!-- form message prompt -->
             <div class="row">
              <div class="col-12">
@@ -1002,22 +996,6 @@
        </div>
       </div>
      </section>         
-<script>
-  grecaptcha.ready(function() {
-    grecaptcha.execute('6Lc_lKMfAAAAAEJGmcwM8eHlZ3uyJMaxZZCsS3gb', {action: 'homepage'}).then(function(token) {
-       // console.log(token);
-       document.getElementById("token").value = token;
-    });
-    // refresh token every minute to prevent expiration
-    setInterval(function(){
-      grecaptcha.execute('6Lc_lKMfAAAAAEJGmcwM8eHlZ3uyJMaxZZCsS3gb', {action: 'homepage'}).then(function(token) {
-        console.log( 'refreshed token:', token );
-        document.getElementById("token").value = token;
-      });
-    }, 60000);
-
-  });
-</script>
  
             </div>
            </div>
