@@ -41,7 +41,6 @@ h6 {
 .list {
   list-style: none;
   margin: 0px;
-  padding: 0px;
 }
 
 a {
@@ -248,9 +247,8 @@ button:focus {
 
 .header_area .navbar .nav .nav-item .nav-link {
   font: 500 12px/100px "Roboto", sans-serif;
-  -webkit-text-stroke: 0.5px #FFFFFF;
   text-transform: capitalize;
-  color: #080444;
+  color: #ffffff;
   padding: 0px;
   display: inline-block;
   font-size: 15px;
@@ -3923,22 +3921,24 @@ textarea {
 .is-center {
   text-align: center;
 }
-.button-success {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(28, 184, 65); /* this is a green */
-}
-.button-xlarge {
-  font-size: 125%;
-}
+
+
 button {
   float: right;
 }
 #name, #email {
   width: 50%;
 }
-
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-fill-color: #EBEEF1;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(96, 148, 204); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+  color: #EBEEF1;
 
 .copyright {
   margin-top: 40px;
