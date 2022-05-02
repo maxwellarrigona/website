@@ -1,41 +1,3 @@
-
-$recaptcha = $_POST['g-recaptcha-response'];
-$res = reCaptcha($recaptcha);
-if($res['success']){
-  // Send email
-}else{
-  // Error
-}
-
-function reCaptcha($recaptcha){
-  $secret = "6LfKDV8fAAAAAFVHi0ZTWUGFc94aQwXD5lsys1ZL";
-  $ip = $_SERVER['REMOTE_ADDR'];
-
-  $postvars = array("secret"=>$secret, "response"=>$recaptcha, "remoteip"=>$ip);
-  $url = "https://www.google.com/recaptcha/api/siteverify";
-  $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, $url);
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-  curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-  curl_setopt($ch, CURLOPT_POSTFIELDS, $postvars);
-  $data = curl_exec($ch);
-  curl_close($ch);
-
-  return json_decode($data, true);
-}
-
-
-
-// supposedly assigns a token when form is submitted
-   function onSubmit(token) {
-     document.getElementById("form").submit();
-   }
-
-// hides the recaptcha badge
-var el = document.querySelector('.grecaptcha-badge');
-el.style.display = 'none';
-
-
 (function() {
   // get all data in form and return object
   function getFormData(form) {
@@ -108,13 +70,13 @@ el.style.display = 'none';
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
           form.reset();
-          var formElements = form.querySelector(".form-control")
+          var formElements = form.querySelector(".form-elements")
           if (formElements) {
             formElements.style.display = "none"; // hide form
           }
           var thankYouMessage = form.querySelector(".thankyou_message");
           if (thankYouMessage) {
-            thankYouMessage.style.display = "block";
+            thankYouMessage.style.display = "section";
           }
         }
     };
@@ -135,7 +97,7 @@ el.style.display = 'none';
   document.addEventListener("DOMContentLoaded", loaded, false);
 
   function disableAllButtons(form) {
-    var buttons = form.querySelectorAll("btn btn-success");
+    var buttons = form.querySelectorAll("button");
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].disabled = true;
     }
